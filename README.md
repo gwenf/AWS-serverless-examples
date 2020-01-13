@@ -10,14 +10,8 @@ Please see the [companion video series](https://www.youtube.com/playlist?list=PL
 
 `/pets`
 
-* GET > retrieve all orgs
-* POST > create new org
-
-`/pets/{id}`
-
-* GET
-* PUT
-* DELETE
+* GET > retrieve all pets
+* POST > create new pet
 
 Example POST Body:
 
@@ -31,11 +25,11 @@ Example POST Body:
 }
 ```
 
-**/pets/{id}**
+`/pets/{id}`
 
-* get
-* put
-* delete
+* GET
+* PUT
+* DELETE
 
 ## Schema
 
